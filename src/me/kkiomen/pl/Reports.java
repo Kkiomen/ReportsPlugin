@@ -102,7 +102,7 @@ public class Reports implements CommandExecutor, Listener {
 
                     Integer limitToSend = 8;
                     if(text.length() > limitToSend){
-                        player.sendMessage(text);
+                        //player.sendMessage(text);
 
                         String sql = "INSERT INTO reports (id, nick,text) VALUES (NULL, ?, ?);";
                         PreparedStatement stmt = plugin.database.connection.prepareStatement(sql);
