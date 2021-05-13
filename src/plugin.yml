@@ -1,0 +1,10 @@
+name: Reports
+version: 1.0
+main: me.kkiomen.pl.Main
+api-version: 1.13
+author: Kkiomen
+description: This plugin give system Reports in server
+
+commands:
+  zglos:
+    description: Wyświetla gui zgloszenia
